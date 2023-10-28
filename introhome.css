@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header .navbar .container-fluid .collapse ul.navbar-nav li a:hover{
+    color: #fff;
+    transition: all 1s;
+}
+main .one-section .row .col-lg-6 .card .card-body .row .col-lg-6 img{
+    width: 230px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 10px;
+}
+header .navbar .container-fluid .end-content button.btn{
+    display: none;
+}
+.offcanvas .offcanvas-body ul.navbar-nav li a{
+    color: #fff;
+    cursor: pointer;
+}
+.offcanvas .offcanvas-body .content ul.navbar-nav li a:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.offcanvas .offcanvas-body ul.navbar-nav li{
+    border-bottom: 1px solid #7f8c8d;
+}
+main .sect-two .container .row .col-lg-4 .card .under-box a i{
+    padding: 15px;
+}
+main .sect-two .container .row .col-lg-4 .card .under-box a:hover i{
+   background: #fff;
+   border-radius: 50%;
+   transition: all 1s;
+   color: black;
+}
+footer .container .footer-content .navbar-nav li a{
+    color: #bdc3c7;
+    font-family: monospace;
+}
+footer .container .footer-content ul li a:hover{
+    color: #fff;
+    transition: all 0.7s;
+}
+footer .container .footer-content ul li a:active{
+    color: #fff;
+}
+footer .container .footer-content ul{
+    margin: auto;
+    color: #bdc3c7;
+    list-style-type: none;
+    width: 300px;
+}
+@media screen and (max-width:768px) {
+header .navbar .container-fluid .center-content{
+    display: none;
+}   
+header .navbar .container-fluid .end-content a.btn{
+    display: none;
+}
+header .navbar .container-fluid .end-content button.btn{
+    display: block;
+}
+}
